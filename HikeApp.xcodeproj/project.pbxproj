@@ -11,6 +11,14 @@
 		CE8360D92C1DF53B00944D09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8360D82C1DF53B00944D09 /* ContentView.swift */; };
 		CE8360DB2C1DF53E00944D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8360DA2C1DF53E00944D09 /* Assets.xcassets */; };
 		CE8360DE2C1DF53E00944D09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8360DD2C1DF53E00944D09 /* Preview Assets.xcassets */; };
+		CE8360E72C1DF7C000944D09 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8360E62C1DF7C000944D09 /* CardView.swift */; };
+		CE8360EA2C1DF9F600944D09 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8360E92C1DF9F600944D09 /* CustomBackgroundView.swift */; };
+		CE8360ED2C1DFB7500944D09 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8360EC2C1DFB7500944D09 /* ColorExtension.swift */; };
+		CE8360EF2C1DFFAD00944D09 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8360EE2C1DFFAD00944D09 /* CustomButtonView.swift */; };
+		CEBB744A2C1E04A500C28BEF /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB74492C1E04A500C28BEF /* GradientButtonStyle.swift */; };
+		CEBB744C2C1E08BB00C28BEF /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB744B2C1E08BB00C28BEF /* CustomCircleView.swift */; };
+		CEBB744E2C1E09F200C28BEF /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB744D2C1E09F200C28BEF /* MotionAnimationView.swift */; };
+		CEBB74512C1E163300C28BEF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB74502C1E163300C28BEF /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		CE8360D82C1DF53B00944D09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8360DA2C1DF53E00944D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8360DD2C1DF53E00944D09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8360E62C1DF7C000944D09 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CE8360E92C1DF9F600944D09 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		CE8360EC2C1DFB7500944D09 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CE8360EE2C1DFFAD00944D09 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		CEBB74492C1E04A500C28BEF /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		CEBB744B2C1E08BB00C28BEF /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		CEBB744D2C1E09F200C28BEF /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		CEBB74502C1E163300C28BEF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,10 @@
 		CE8360D52C1DF53B00944D09 /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE8360E82C1DF9E100944D09 /* Component */,
+				CE8360EB2C1DFB5700944D09 /* Utility */,
 				CE8360D62C1DF53B00944D09 /* HikeAppApp.swift */,
-				CE8360D82C1DF53B00944D09 /* ContentView.swift */,
+				CEBB744F2C1E0F1200C28BEF /* Screen */,
 				CE8360DA2C1DF53E00944D09 /* Assets.xcassets */,
 				CE8360DC2C1DF53E00944D09 /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				CE8360DD2C1DF53E00944D09 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8360E82C1DF9E100944D09 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CE8360E62C1DF7C000944D09 /* CardView.swift */,
+				CE8360E92C1DF9F600944D09 /* CustomBackgroundView.swift */,
+				CE8360EE2C1DFFAD00944D09 /* CustomButtonView.swift */,
+				CEBB744B2C1E08BB00C28BEF /* CustomCircleView.swift */,
+				CEBB744D2C1E09F200C28BEF /* MotionAnimationView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CE8360EB2C1DFB5700944D09 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CE8360EC2C1DFB7500944D09 /* ColorExtension.swift */,
+				CEBB74492C1E04A500C28BEF /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CEBB744F2C1E0F1200C28BEF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CE8360D82C1DF53B00944D09 /* ContentView.swift */,
+				CEBB74502C1E163300C28BEF /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +186,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8360D92C1DF53B00944D09 /* ContentView.swift in Sources */,
+				CEBB744C2C1E08BB00C28BEF /* CustomCircleView.swift in Sources */,
+				CE8360E72C1DF7C000944D09 /* CardView.swift in Sources */,
 				CE8360D72C1DF53B00944D09 /* HikeAppApp.swift in Sources */,
+				CE8360EF2C1DFFAD00944D09 /* CustomButtonView.swift in Sources */,
+				CEBB74512C1E163300C28BEF /* SettingsView.swift in Sources */,
+				CEBB744A2C1E04A500C28BEF /* GradientButtonStyle.swift in Sources */,
+				CEBB744E2C1E09F200C28BEF /* MotionAnimationView.swift in Sources */,
+				CE8360EA2C1DF9F600944D09 /* CustomBackgroundView.swift in Sources */,
+				CE8360ED2C1DFB7500944D09 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
